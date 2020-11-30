@@ -15,7 +15,15 @@ public static void main(String[] args) {
             break;
         case b:
             System.out.println("¡Correcto!");
+            break;
+        case c:
+            System.out.println("¡Incorrecto!");
+            break;
+        case d:
+            System.out.println("¡Incorrecto!");
+            break;
         default:
+            System.out.println("ERROR: Debes seleccionar una letra del menú")
             break;
     }
 }
