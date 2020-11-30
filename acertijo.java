@@ -1,3 +1,4 @@
+public class acertijo {
 public static void main(String[] args) {
     char answer;
     System.out.println("Tengo ojos pero no veo, agua pero no bebo y barba pero no me afeito, ¿Quién soy?"); 
@@ -26,5 +27,7 @@ public static void main(String[] args) {
             System.out.println("ERROR: Debes seleccionar una letra del menú")
             break;
     }
+    System.out.println("¡Hasta luego!");
+}
 }
 }
